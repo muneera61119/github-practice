@@ -1,0 +1,30 @@
+.outer{
+    background-color: red;
+    height: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    margin-right:10px;
+}
+
+.inner p{
+    margin: 15px;
+}
+
+.inner button{
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+
+.inner button:hover{
+    background-color: orange;
+}
